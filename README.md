@@ -1,1 +1,2 @@
-# Program
+# Mini Project 1: Product Information System (Desain)
+
