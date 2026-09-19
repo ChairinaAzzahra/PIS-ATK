@@ -1,0 +1,11 @@
+<?php
+// File data produk alat tulis kampus
+$daftarBarang = [
+    [
+        "id" => "ATK-01",
+        "nama" => "Binder A5 Joyko",
+        "kategori" => "Alat Tulis",
+        "harga" => 28000,
+        "stok" => 5,
+        "deskripsi" => "Binder ukuran A5 berisi 20 ring untuk catatan perkuliahan."
+],
