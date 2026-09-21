@@ -3,7 +3,7 @@
 ## Desain & Struktur Berkas
 
 1. products.php (Data Layer)
-  - Menampung *multidimensional associative array* yang menyimpan daftar barang inventori (ID, Nama, Kategori, Harga, Stok, Deskripsi)
+   - Menampung *multidimensional associative array* yang menyimpan daftar barang inventori (ID, Nama, Kategori, Harga, Stok, Deskripsi)
 
 2. function.php (Processing Layer)
    - Berisi fungsi logika bisnis 'hitungTotalNilaiStok()' untuk mengkalkulasi total aset inventori gudang
