@@ -52,7 +52,7 @@ $totalNilaiAset = hitungTotalNilaiStok($daftarBarang);
         <tbody>
             <?php foreach ($daftarBarang as $barang): ?> 
                 <?php
-                    // Mengecheck apakah stok berkurang dari 3?
+                    // Mengecheck apakah stok berkurang dari 3? (Mengisi variabel $isKritis menggunakan fungsi dari function)
                     $isKritis = cekStokKritis($barang['stok']);
                 ?>
                 <tr class="<?php if ($isKritis) { echo 'stok-kritis'; } ?>">
