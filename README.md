@@ -1,4 +1,4 @@
-# Mini Project 1: Product Information System (Desain)
+# Mini Project 1: PIS-ATK (Product Information System - Alat Tulis Kampus (Desain))
 
 ## Desain & Struktur Berkas
 
