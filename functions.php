@@ -3,7 +3,7 @@
 function hitungTotalNilaiStok($data) {
     $total = 0;
     foreach ($data as $item) {
-        $total = $total + ($istem['harga'] * $item['stok']);
+        $total = $total + ($item['harga'] * $item['stok']);
     }
     return $total; 
 }
