@@ -3,10 +3,10 @@
 function hitungTotalNilaiStok($data) {
     $total = 0;
     foreach ($data as $item) {
-        $total = $total + ($sistem['harga'] * $item['stok']);
+        $total = $total + ($istem['harga'] * $item['stok']);
     }
+    return $total; 
 }
-
 
 // Fungsi sederhana untuk mengecek stok kritis
 function cekStokKritis($stok) {
