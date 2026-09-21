@@ -53,6 +53,7 @@ $totalNilaiAset = hitungTotalNilaiStok($daftarBarang);
             <?php foreach ($daftarBarang as $barang): ?> 
                 <?php
                     // Mengecheck apakah stok berkurang dari 3?
+                    $isKritis = cekStokKritis($barang['stok']);
                 ?>
                 <tr class="<?php if ($isKritis) { echo 'stok-kritis'; } ?>">
                     <td><?php echo $barang['id']; ?></td>
