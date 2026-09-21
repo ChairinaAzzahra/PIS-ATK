@@ -1,12 +1,12 @@
 <?php
-//Fungsi untuk menghitung total nilai barang yang ada di stok barang
+// Fungsi untuk menghitung total nilai barang yang ada di stok barang
 function hitungTotalNilaiStok($data) {
     $total = 0;
     foreach ($data as $item) {
-        $total = $total + ($item['harga] * $item['stok']);
+        $total = $total + ($sistem['harga'] * $item['stok']);
     }
-    return $total;
 }
+
 
 // Fungsi sederhana untuk mengecek stok kritis
 function cekStokKritis($stok) {
