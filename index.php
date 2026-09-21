@@ -19,7 +19,7 @@ $totalNilaiAset = hitungTotalNilaiStok($daftarBarang);
       }
       table {
         border-collapse: collapse;
-        witdh: 100%;
+        width: 100%;
       }
       th, td {
         border: 1px solid #ccc;
@@ -27,7 +27,7 @@ $totalNilaiAset = hitungTotalNilaiStok($daftarBarang);
         text-align: left;
       }
       th {
-        background-color:#f2f2f2:
+        background-color: #f2f2f2;
       }
       .stok-kritis {
         background-color: #ffcccc;
@@ -65,9 +65,9 @@ $totalNilaiAset = hitungTotalNilaiStok($daftarBarang);
                             <small style="color: red;">(Stok Menipis!)</small>
                         <?php endif; ?>
                     </td>
-                    <td><?php echo $barang['dekripsi']; ?></td>
+                    <td><?php echo $barang['deskripsi']; ?></td>
                 </tr>
-            <?php endforeach ?>
+            <?php endforeach; ?> 
         </tbody>
     </table>
 
